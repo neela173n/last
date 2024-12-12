@@ -4,7 +4,7 @@ on: [push] # Trigger this workflow on push events.
 
 jobs:
   build: # Job name.
-    runs-on: ubuntu-latest # The job runs on the latest version of Ubuntu.
+    runs-on: self-hosted # The job runs on the latest version of Ubuntu.
 
     strategy:
       matrix:
